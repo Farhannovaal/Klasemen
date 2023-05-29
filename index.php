@@ -24,9 +24,6 @@ if ( isset($_POST['addData'])){
 ?>
 
 
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,10 +35,7 @@ if ( isset($_POST['addData'])){
 </head>
 <body>
 
-<h2> Pertandingan Bola </h2>
-
-
-
+    <h2> Pertandingan Bola </h2>
 
 <div class="pengumuman-wrapper">
     <h2> Perhatian, Sebelum Melakukan Input Data</h2>
@@ -53,13 +47,6 @@ if ( isset($_POST['addData'])){
        <li> Terima Kasih, Semoga Lulus, Amiin </li>
     </ul>
 </div>
-
-
-
-
-
-
-
 
 
 <div class="wrapper">
@@ -169,8 +156,6 @@ if(isset($_POST['saveData'])){
 }
 ?>
 
-
-
 <div class="klub-data">
 <h2> Klub Yang Sudah Ditambahkan </h2>
         <div class="klub-wrapper">
@@ -190,8 +175,6 @@ if(isset($_POST['saveData'])){
 ?>
 </div>
 </div>
-
-
 
 <div class="container-match">
     <h2>LIVE MATCH SCORE</h2>
@@ -222,21 +205,6 @@ if(isset($_POST['saveData'])){
         </div>
     </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <div class="klasemen-wrapper">

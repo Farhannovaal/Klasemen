@@ -11,7 +11,7 @@ if ( isset($_POST['addData'])){
     $queryTambah = mysqli_query($koneksi, "INSERT INTO klasemen1 (namaKlub) VALUES ('$tambahKlub')");
 
     if ($queryTambah){
-        echo "Data berhasil disimpan";
+        echo "alert ('Data berhasil disimpan')";
         header("location:".BASE_URL. "");
         exit();
     }else{
@@ -41,7 +41,7 @@ if ( isset($_POST['addData'])){
     <h2> Perhatian, Sebelum Melakukan Input Data</h2>
     <ul> 
        <li> Data Klasemen Muncul Pada Saat Anda Sudah Menambahkan Klub.  </li>
-       <li> Jika anda menerima pesan berhasil, maka data tim ada sudah tersimpan. </li>
+       <li> Jika klub sudah muncul di table , maka data tim ada sudah tersimpan. </li>
        <li> Masukan Nama dan Score Tim yang akan bertanding. </li>
        <li> Klasemen akan berubah setelah anda menekan tombol Simpan Data </li>
        <li> Terima Kasih, Semoga Lulus, Amiin </li>

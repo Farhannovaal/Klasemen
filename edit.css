@@ -1,0 +1,231 @@
+h2 {
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    text-align: center;
+    color: orange;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.input-wrapper label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    /* border-bottom: 2px; */
+}
+
+.input-wrapper label input {
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px black;
+    width: 300px;
+}
+
+.wrapper button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
+
+
+
+.pertandingan-wrapper .teamA {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.pertandingan-wrapper .teamA label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    padding:10px;
+    margin:20px;
+    border-radius:10px;
+    font-size:16px;
+        font-weight:bold;
+}
+.pertandingan-wrapper .teamA label input {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.pertandingan-wrapper .teamB {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.pertandingan-wrapper .teamB label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    padding:10px;
+    margin:20px;
+    border-radius:10px;
+    font-size:16px;
+        font-weight:bold;
+}
+.pertandingan-wrapper .teamB label input {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.team-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.klasemen-wrapper {
+    display: grid;
+    justify-items: stretch;
+    padding: 50px;
+    text-align: center;
+    background-color: brown;
+    border-radius: 20px;
+    margin: 50px;
+    color: white;
+}
+body {
+    background-color: blueviolet;
+}
+
+.pengumuman-wrapper {
+    /* text-align: center; */
+    /* background-color: red; */
+    /* padding: 10px; */
+    border-radius: 10px;
+    /* margin: 50px; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+h2 {}
+
+.pengumuman-wrapper {}
+
+.pengumuman-wrapper ul li {text-decoration: none;/* list-style: none; */font-size: 15px;font-weight: 400;background-color: white;padding: 5px;list-style: inside;margin: 5px;border-radius: 10px;}
+
+.nama-klub {
+    border-right: 2px solid black;
+    /* margin-right: 2px; */
+    padding-right: 10px;
+}
+.klub-data .klub-wrapper {
+    display: flex;
+    align-content: flex-start;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    gap: 10px;
+    width: 700px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.klub-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.match-wrapper button.saveData {
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    /* display: flex; */
+    /* align-content: space-between; */
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.match-wrapper button.addMatch {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: brown;
+    color: white;
+}
+
+.klasemen-wrapper {}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.match-wrapper .input-wrapper table td {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    /* display: flex; */
+    justify-content: center;
+    align-content: center;
+    padding: 5px;
+    text-align: center;
+}
+
+.match-wrapper .input-wrapper table td input {
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px black;
+}
+
+
